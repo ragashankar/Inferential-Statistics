@@ -1,0 +1,26 @@
+Total Population study - Take samples and cal sample statistic (sample mean) for each sample.
+Samples are called sample distributions
+Sample statistics for each sample distribution are called sampling distribution
+
+Standard error - SD of the sampling distribution
+Sampled mean - Mean of sampling distribution
+
+NOTE: Overall population has more variablitiy than sample population
+
+So Standard error(SD of sampled mean) is less than overall SD, and becomes low as sample size(more samples from the population) increases.
+
+CLT - CLT says that the sampling distribution of the mean, distribution of sample means from many samples, is nearly normal centered at the population mean, with standard error equal to the population standard deviation divided by the square root of the sample size. 
+                                              SE = SD of overall pop/sqrt(n)  where is the sample size
+                                              
+Mostly, SD of overall pop is unknown, so the SD of one sample is taken as the best guess for SD of overall population
+
+
+Conditions for CLT:
+1. Sampled observations must be independent
+ - random sample/assignment
+ - if sampling without replacement i.e < 10% of pop ; say if we sample almost half of overall pop, then chances are that I will include the pop which i already sampled in this sample to the next sample. so, sample size must be very small < 10% of overall pop
+
+2. Sample size/skew - if pop distrib is normal, then sampling distri is nearly normal. If pop distri is skewed, then sample size must be
+taken larger than 30
+* The more the skew, the higher the sample size needed for CLT to kick in.
+
