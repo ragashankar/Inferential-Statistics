@@ -1,0 +1,13 @@
+LO 1. Define sample statistic as a point estimate for a population parameter, for example, the sample mean is used to estimate the population mean, and note that point estimate and sample statistic are synonymous.
+
+LO 2. Recognize that point estimates (such as the sample mean) will vary from one sample to another, and define this variability as sampling variability (sometimes also called sampling variation).
+
+LO 3. Calculate the sampling variability of the mean, the standard error, as SE=σn√ where σ is the population standard deviation.
+
+Note that when the population standard deviation σ is not known (almost always), the standard error SE can be estimated using the sample standard deviation s, so that SE=sn√.
+LO 4. Distinguish standard deviation (σ or s) and standard error (SE): standard deviation measures the variability in the data, while standard error measures the variability in point estimates from different samples of the same size and from the same population, i.e. measures the sampling variability.
+
+LO 5. Recognize that when the sample size increases we would expect the sampling variability to decrease.
+
+Conceptually: Imagine taking many samples from the population. When the size of each sample is large, the sample means will be much more consistent across samples than when the sample sizes are small.
+Mathematically: Remember SE=σn√. Then, when n increases SE will decrease since n is in the denominator.
