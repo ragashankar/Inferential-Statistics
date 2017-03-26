@@ -1,0 +1,6 @@
+Margin error = Z*(SD_overall/sqrt(n))
+
+If we want to reduce the error by 1/x:
+(1/x)(Marginerror) = Z*(sd/sqrt(n))*(1/x)
+
+(1/x)(Marginerror) = Z*(sd/sqrt(nx^2))
