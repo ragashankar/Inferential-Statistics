@@ -1,0 +1,22 @@
+In a normal distri, if we take a single sample mean, the point estimate will be around the mean but we don't know where it will be.
+Here,we bring in Confidence Interval which shows that the pt. estimate lies within the range of +/- standard error distance from sample mean.
+
+C.I = n(S.E) where n represents how much S.Ds we have to cross from the mean to find our point estimate
+
+95% C.I - Normally we take 95% C.I which states that pt. estimate will be +/- 2 SDs from mean. This covers the centre and some parts in the surrounding area in the bell curve.
+
+99.7% CI - Its rare but can be computed which states that pt. estimate will be +/- 3 SDs from mean. This covers the centre and major parts in the surrounding area in the bell curve.
+
+C.I Formula:
+
+C.I = (sample mean)+/- z*(s/sqrt(n))
+Conditions for C.I - same as that of CLT
+
+
+Finding critical value(z) for 95% C.I
+In normally distributed bell curve, 95% .CI denotes the middle portion of bell curve. The remainder portion is (1-0.95)/2 = 0.025
+By looking at the table,we find the z-score for 0.025 is +/- 1.96
+
+Critical values must be positive, so z = 1.96 for 95% C.I
+
+In R, qnorm(0.025) = -1.96 = 1.96
