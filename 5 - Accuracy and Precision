@@ -1,0 +1,9 @@
+Confidence level - choosing a level from C.Is of all samples
+*As the C.I increases,critical value increases,width of C.I gets wider and confidelence level increases
+
+Drawbacks of wider interval:
+Say tomo's temparature ranges from -29C to 43C, we don't know what to expect and what dress to wear as we don't know the exact temp
+*Here,width inc,accuracy inc but precision decreases.
+
+To overcome drawback:
+increase sample size, wich decreases SE and the width inc and acc and preci also is high
